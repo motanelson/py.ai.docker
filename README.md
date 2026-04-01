@@ -1,2 +1,1 @@
-# py.ai.docker
-docker ai from python3
+gcc sample docker
