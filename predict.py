@@ -4,9 +4,9 @@ from scipy import stats
 
 # Dados
 x = list(range(20))
-y = [float(v) * 2.25 for v in x]
+y = [float(v) * 1.25 for v in x]
 xx = list(range(40))
-yy = [float(v) * 2.25 for v in xx]
+yy = [float(v) * 1.25 for v in xx]
 # Regressão linear
 slope, intercept, r, p, std_err = stats.linregress(x, y)
 
